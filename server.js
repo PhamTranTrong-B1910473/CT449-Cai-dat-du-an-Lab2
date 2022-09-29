@@ -1,3 +1,4 @@
+
 const app = require("./app");
 const config = require("./app/config");
 const MongoBD = require("./app/utils/mongodb.util");
@@ -15,4 +16,3 @@ async function startServer(){
     }
 }
 startServer();
-

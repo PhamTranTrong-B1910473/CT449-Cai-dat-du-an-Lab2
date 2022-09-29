@@ -49,7 +49,6 @@ class ContactService {
       filter,
       { $set: update },
       { returnDocument: "after" }
-
     );
     return result.value;
   }
