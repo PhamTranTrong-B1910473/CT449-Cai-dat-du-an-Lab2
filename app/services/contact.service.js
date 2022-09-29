@@ -49,6 +49,7 @@ class ContactService {
       filter,
       { $set: update },
       { returnDocument: "after" }
+
     );
     return result.value;
   }
@@ -67,3 +68,4 @@ class ContactService {
   }
 }
 module.exports = ContactService;
+// module.exports = ContactService;
